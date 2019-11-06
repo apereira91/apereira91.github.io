@@ -1,0 +1,161 @@
+body {
+    width: 960px;
+    background-color: lightgray;
+    margin: 0, auto;
+    padding: 40px;
+}
+ul.navigationBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px gray solid;
+    border-bottom-width: 100%;
+    height: 40px;
+    background-color: white;
+}
+li#Name {
+    display: inline-flex;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+li#About, li#Portfolio, li#Contact {
+    display: inline-flex;
+    float: right;
+    padding-right: 2em;
+    text-align: center
+}
+div.main {
+    background-color: white;
+    border: 1px solid black;
+    margin: 0, auto;
+}
+h3 {
+    color: teal;
+    text-align: left;
+    border-bottom: 1px gray solid;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+img {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+p {
+    line-height: 28px;
+    display: inline-block;
+    margin-left: 10px;
+}
+p#one {
+    margin-left: 10px
+}
+p#two {
+    margin-top: 10px;
+}
+a {
+    text-decoration: none;
+    color: grey;
+}
+a:hover {
+    color: purple;
+}
+#dog {
+    margin-right: 5px;
+    display: inline-block;
+}
+div#main {
+    background-color: white;
+    width: 960px;
+    height: 900px;
+}
+#hangman, #rpg, #triviaGame, #rutgersWidget, #rockPaperScissors {
+    position: relative;
+}
+#hangman {
+    position: absolute;
+    top: 220px;
+    left: 220px;
+    padding-right: 50px;
+    margin-right: 30px;
+}
+#rpg {
+    position: absolute;
+    top: 220px;
+    right: 520px;
+    padding-left: 50px;
+    margin-left: 30px;
+}
+#triviaGame {
+    position: absolute;
+    top: 460px;
+    left: 220px;
+    padding-right: 50px;
+    margin-right: 30px;
+}
+#rutgersWidget {
+    position: absolute;
+    top: 460px;
+    right: 520px;
+    padding-left: 50px;
+    margin-left: 30px;
+}
+#rockPaperScissors {
+    position: absolute;
+    top: 680px;
+    left: 220px;
+    padding-right: 50px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+p#hang, p#rpg, p#trivia, p#rutgers, p#rps {
+    background-color: teal;
+    color: white;
+    z-index: 2;
+    width: 180px;
+    text-align: center;
+}
+p#hang {
+    position: relative;
+    top: 255px;
+    left: 180px;
+}
+p#rpg {
+    position: relative;
+    top: 255px;
+    left: 285px;
+    width: 130px;
+}
+p#trivia {
+    position: relative;
+    top: 495px;
+    left: -230px;
+}
+p#rutgers {
+    position: relative;
+    top: 495px;
+    left: -100px;
+}
+p#rps {
+    position: relative;
+    top: 685px;
+    left: 180px;
+}
+form {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+footer {
+    clear: both;
+    background-color: darkgray;
+    color: white;
+    width: 960px;
+    text-align: center;
+    border-top: 3px solid teal;
+    height: 40px;
+}
